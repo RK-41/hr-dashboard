@@ -1,24 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HR Dashboard
 
-## Getting Started
+A modern HR dashboard built with Next.js, featuring employee management, recruitment tracking, and department analytics.
 
-First, run the development server:
+## Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Employee management and statistics
+- Department overview
+- Recruitment tracking
+- Schedule management
+- Real-time notifications
+- Responsive design
+
+## Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- SVG Icons
+- Next.js Font Optimization
+
+## Development
+
+The project follows a component-based architecture with:
+
+- Reusable UI components in `app/components`
+- Icons centralized in `app/lib/icons.ts`
+- Responsive layouts using Tailwind CSS
 
 ## Learn More
 
